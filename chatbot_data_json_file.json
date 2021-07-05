@@ -1,0 +1,120 @@
+{"intents" : [
+    {"tag": "greeting",
+    "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+    "responses": ["Hi there, how can I help?"]    
+    },
+    {"tag": "goodbye",
+    "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+    "responses": ["Bye! Have a nice day"]
+    },
+    {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+    "responses": ["Happy to help!"]
+    },
+    {"tag": "noanswer",
+    "patterns": [],
+    "responses": ["Sorry, Please give me more info"]
+    },
+    {"tag":"exchange",
+    "patterns": ["How do I exchange my for a different size?","I want to exchange my ","I need to exchange ","Can I replace ","I need to replace my", "I need to swap my","Can I swap out my for another one?","I need to exchange for a smaller size"],
+    "responses": ["We do offer 30 days return, please bring the item with tags and bill to the store"]
+    },
+    {"tag":"hours",
+    "patterns": ["When are you open?","What are you hours?","opening hours","What time does the store close","What are your store hours?",
+    "What are you store hours in your location on"],
+    "responses": ["We are open Mon to Sat between 9am to 11pm"]
+    },
+    {"tag":"representative",
+    "patterns": ["How do I talk to a person", "I want to talk to a human","how do I call you","I need to speak to a real person","Can you call me","Can I talk to a human",
+      "Representative","Speak to a representative","Speak to a Customer service agent"],
+    "responses": ["I apologise for not being able to provide with all the information. You could speak to a representative by calling +1-800-900-1000"]
+    },
+    {"tag":"location",
+    "patterns": ["Where do you have stores?","What locations do you have?", "Are there stores in","are you in","do you have any stores near","are there any locations near",
+      "do you have stores by","are you by","Where are you located","Where are your stores","What are other locations","What street are you on","Location in Michigan"],
+    "responses": ["We are located in Framington(Michigan), Birmingham(Michigan), Detroit(Michigan). Which store's address would you like?"]
+    },
+    {"tag":"farmington",
+    "patterns": ["Framington(Michigan)", "Farmington", "where is your farmington store located?", "what are your farmington store hours"],
+    "responses": ["Our Farmington store is located on 10 mile and Drake. Store is open Mon to Sat 9am to 11pm."]
+    },
+    {"tag":"birmingham",
+    "patterns": ["Birmingham(Michigan)", "Birmingham", "where is your Birmingham store located?", "what are your Birmingham store hours"],
+    "responses": ["Our Birmingham store is located on the intersection of Woodward and E.Maple road. Store is open Mon to Sat 9am to 11pm."]
+    },
+    {"tag":"detroit",
+    "patterns": ["Detroit(Michigan)", "Detroit", "where is your Detroit store located?" ,"what are your Detroit store hours"],
+    "responses": ["Our Detroit store is located on the intersection of Temple Street and Cass avenue. Store is open Mon to Sat 9am to 11pm."]
+    },
+    {"tag":"order",
+    "patterns": ["Where is my order?","is my order going to be delayed","is my package going to be delayed","are my items going to be delayed","is my order going to be on time",
+      "is package going to be on time","are my items going to be on time","Where is my package","where is my order","What is my tracking number","I cannot track my package",
+      "Is my package going to be delayed","Where is my item"],
+    "responses": ["Please email us on order@store.com with your order number and we will get back to you in 1 hour with order status"]
+    },
+    {"tag":"restocking",
+    "patterns": ["Are there restocking fees?","Will my shipping be refunded","Can you refund my shipping","Can restocking fees be refunded", "What is the restocking fee"],
+    "responses": ["If the item which you received was not defective, you will have to pay the restocking fee"]
+    },
+    {"tag":"return",
+    "patterns": ["How do I return an","How do I process a return","What are the steps to return an","What steps do you have to take to return an","How do send in a return",
+      "Do you provide a shipping label","Do I have to pay return shipping","Can I schedule a return pick up"],
+    "responses": ["Do you wish to return via mail? or Store?"]
+    },
+    {"tag":"return_mail",
+    "patterns": ["Mail","How do I return an item in mail?"],
+    "responses": ["Please email us at return@store.com with order number and we will send you a return label"]
+    },
+    {"tag":"return_store",
+    "patterns": ["store","How do I return an item in store?"],
+    "responses": ["Please bring the item you wish to return to any of our stores with the recipt and our store representatives will be able to assit you."]
+    },
+    {"tag":"exchange",
+    "patterns": ["I need to exchange for a larger size","Can I exchange"],
+    "responses": ["We do offer 30 days retur, please bring the item with tags and bill to the store"]
+    },
+    {"tag":"hours",
+    "patterns": ["What time are you open till","When do you close"],
+    "responses": ["We are open Mon to Sat, between 9am to 11pm"]
+    },
+    {"tag":"representative",
+    "patterns": ["I need to speak to customer service","Can I talk to a representative"],
+    "responses": ["I apologise for not being able to provide with all the information. You could speak to a representative by calling +1-800-900-1000"]
+    },
+    {"tag":"location",
+    "patterns": ["What other stores are you by","Are you by"],
+    "responses": ["We are located in Framington(Michigan), Birmingham(Michigan), Detroit(Michigan). Which store's address would you like?"]
+    },
+    {"tag":"farmington",
+    "patterns": ["what is your farmington store address"],
+    "responses": ["Our Farmington store is located on 10 mile and Drake. Store is open Mon to Sat 9am to 11pm."]
+    },
+    {"tag":"birmingham",
+    "patterns": ["what is your Birmingham store address"],
+    "responses": ["Our Birmingham store is located on the intersection of Woodward and E.Maple road. Store is open Mon to Sat 9am to 11pm."]
+    },
+    {"tag":"detroit",
+    "patterns": ["what is your Detroit store address"],
+    "responses": ["Our Detroit store is located on the intersection of Temple Street and Cass avenue. Store is open Mon to Sat 9am to 11pm."]
+    },
+    {"tag":"order",
+    "patterns": ["Where are my items","Are my items on the way"],
+    "responses": ["Please email us on order@store.com with your order number and we will get back to you in 1 hour with order status"]
+    },
+    {"tag":"restocking",
+    "patterns": ["Why do I have to pay restocking fees"],
+    "responses": ["If the item which you received was not defective, you will have to pay the restocking fee"]
+    },
+    {"tag":"return",
+    "patterns": ["Can I return in store","How long do I have to return an"],
+    "responses": ["Do you wish to return via mail? or Store?"]
+    },
+    {"tag":"return_mail",
+    "patterns": ["return mail"],
+    "responses": ["Please email us at return@store.com with order number and we will send you a return label"]
+    },
+    {"tag":"return_store",
+    "patterns": ["return store"],
+    "responses": ["Please bring the item you wish to return to any of our stores with the recipt and our store representatives will be able to assit you."]
+    }
+]}
